@@ -30,7 +30,7 @@ If everything went well, [renv](https://rstudio.github.io/renv/articles/renv.htm
 ```
 * Installing renv 0.14.0 ... Done!
 Successfully installed and loaded renv 0.14.0.
-* ~/repos/ebame6. [renv 0.12.2]
+* ~/repos/ebame6. [renv 0.14.0]
 ```
 
 And restore the environment:
