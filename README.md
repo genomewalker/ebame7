@@ -1,5 +1,9 @@
 # EBAME 6 tutorial
 
+Welcome to the EBAME4 hands-on for exploring the functional uncharacterised fraction of genomes and metagenomes. Go to the [**wiki**](https://github.com/genomewalker/ebame6/wiki) to get to the tutorial
+
+___
+
 Code for the AGNOSTOS tutorial
 
 To recreate the analyses follow the instructions below:
