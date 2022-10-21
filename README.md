@@ -1,6 +1,6 @@
-# EBAME 6 tutorial
+# EBAME7 tutorial
 
-Welcome to the EBAME 6 hands-on for exploring the functional uncharacterised fraction of genomes and metagenomes. Go to the [**wiki**](https://github.com/genomewalker/ebame6/wiki) to get to the anvi'o part of the tutorial
+Welcome to the EBAME7 hands-on for exploring the functional uncharacterised fraction of genomes and metagenomes. Go to the [**wiki**](https://github.com/genomewalker/ebame6/wiki) to get to the anvi'o part of the tutorial
 
 ___
 
