@@ -13,6 +13,6 @@ dependencies:
   - htslib
   - pip
   - pip:
-      - bam-filter>=1.0.9
+      - bam-filter>=1.0.10
       - attrs
       - metaDMG[viz]>=0.35.7
