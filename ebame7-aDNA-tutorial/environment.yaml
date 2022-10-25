@@ -1,0 +1,18 @@
+name: ebame7-aDNA-tutorial
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - genomewalker
+dependencies:
+  - python=3.9
+  - bowtie2
+  - seqkit
+  - samtools>=1.14
+  - picard
+  - htslib
+  - pip
+  - pip:
+      - bam-filter>=1.0.9
+      - attrs
+      - metaDMG[viz]>=0.35.7
