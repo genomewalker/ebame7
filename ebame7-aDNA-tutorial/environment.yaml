@@ -13,6 +13,8 @@ dependencies:
   - htslib
   - pip
   - pip:
-      - bam-filter>=1.0.10
+      - bam-filter>=1.0.11
+      - dmg-reads>=0.0.4
       - attrs
       - metaDMG[viz]>=0.35.7
+      - tabview
