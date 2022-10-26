@@ -11,10 +11,11 @@ dependencies:
   - samtools>=1.14
   - picard
   - htslib
+  - csvtk
   - pip
   - pip:
       - bam-filter>=1.0.11
-      - dmg-reads>=0.0.6
+      - dmg-reads>=0.0.9
       - attrs
-      - metaDMG[viz]>=0.35.7
+      - metaDMG[viz]>=0.36.0
       - tabview
