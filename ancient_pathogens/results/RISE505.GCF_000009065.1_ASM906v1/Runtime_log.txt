@@ -1,0 +1,8 @@
+2022-10-24 23:33:26,549 mapdamage.main INFO Started with the command: /Users/martinsikora/.local/bin/mapDamage -i results/RISE505.GCF_000009065.1_ASM906v1.mapped.sort.rmdup.bam -r data/GCF_000009065.1_ASM906v1_genomic.fna --no-stats --merge-libraries -d results/RISE505.GCF_000009065.1_ASM906v1
+2022-10-24 23:33:26,600 mapdamage.reader INFO Found 1 libraries in BAM file
+2022-10-24 23:33:26,604 mapdamage.main INFO Reading from 'results/RISE505.GCF_000009065.1_ASM906v1.mapped.sort.rmdup.bam'
+2022-10-24 23:33:26,604 mapdamage.main INFO Writing results to 'results/RISE505.GCF_000009065.1_ASM906v1/'
+2022-10-24 23:35:34,608 mapdamage.rscript INFO Saving misincorporation plot to '/Users/martinsikora/Dropbox/uni/docs/teaching/ebame/practical/ebame7/ancient_pathogens/results/RISE505.GCF_000009065.1_ASM906v1/Fragmisincorporation_plot.pdf'
+2022-10-24 23:35:36,189 mapdamage.rscript INFO Saving length distribution plot to '/Users/martinsikora/Dropbox/uni/docs/teaching/ebame/practical/ebame7/ancient_pathogens/results/RISE505.GCF_000009065.1_ASM906v1/Length_plot.pdf'
+2022-10-24 23:35:36,947 mapdamage.rscript INFO WARNING: Truncated extreme data-points corresponding to 0.00% of reads
+2022-10-24 23:35:37,159 mapdamage.main INFO Successful run
