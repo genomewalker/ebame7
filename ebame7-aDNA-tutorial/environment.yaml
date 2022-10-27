@@ -20,7 +20,7 @@ dependencies:
   - eigen
   - pip
   - pip:
-      - bam-filter>=1.0.12
+      - bam-filter>=1.0.13
       - dmg-reads>=1.0.0
       - attrs
       - metaDMG[all]>=0.36.0
