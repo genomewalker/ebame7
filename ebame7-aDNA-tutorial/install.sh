@@ -6,9 +6,6 @@
 
 source /etc/profile
 
-apt-get update
-apt-get install -y nginx
-
 # Setting up the tutorial environment
 
 mamba env create -f https://raw.githubusercontent.com/genomewalker/ebame7/main/ebame7-aDNA-tutorial/environment.yaml
@@ -29,4 +26,6 @@ make clean && make -j 4
 
 mv metaDMG-cpp "${BIN}"
 
-conda deactivate ebame7-aDNA-tutorial
+rm -rf "${APP_SRC}/metaDMG-cpp"
+
+conda deactivate
