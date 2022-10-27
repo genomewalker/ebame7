@@ -21,3 +21,4 @@ dependencies:
       - attrs
       - metaDMG[viz]>=0.36.0
       - tabview
+      - logger_tt
