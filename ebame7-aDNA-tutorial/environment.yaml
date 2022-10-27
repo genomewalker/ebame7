@@ -10,6 +10,8 @@ dependencies:
   - seqkit
   - samtools>=1.14
   - picard
+  - bedtools
+  - mapdamage2
   - htslib
   - csvtk
   - pip
