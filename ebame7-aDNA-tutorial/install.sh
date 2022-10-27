@@ -28,3 +28,5 @@ cd metaDMG-cpp || exit
 make clean && make -j 4
 
 mv metaDMG-cpp "${BIN}"
+
+conda deactivate ebame7-aDNA-tutorial
