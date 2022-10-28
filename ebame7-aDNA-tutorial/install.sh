@@ -12,10 +12,10 @@ mamba env create -f https://raw.githubusercontent.com/genomewalker/ebame7/main/e
 
 conda activate ebame7-aDNA-tutorial
 
-APP_SRC="${IFB_MAIN}"/src
-BIN="${IFB_MAIN}"/bin
+APP_SRC="/home/ubuntu/opt/src"
+BIN=/home/ubuntu/opt/bin
 mkdir -p "${APP_SRC}"
-
+mkdir -p "${BIN}"
 cd "${APP_SRC}" || exit
 
 git clone https://github.com/metaDMG-dev/metaDMG-cpp.git
