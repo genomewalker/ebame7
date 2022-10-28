@@ -6,10 +6,6 @@
 
 # Setting up the tutorial environment
 
-mamba env create -f https://raw.githubusercontent.com/genomewalker/ebame7/main/ebame7-aDNA-tutorial/environment.yaml
-
-conda activate ebame7-aDNA-tutorial
-
 APP_SRC="/home/ubuntu/opt/src"
 BIN="/home/ubuntu/opt/bin"
 mkdir -p "${APP_SRC}"
@@ -26,5 +22,3 @@ make clean && make -j 4
 mv metaDMG-cpp "${BIN}"
 
 rm -rf "${APP_SRC}/metaDMG-cpp"
-
-conda deactivate
