@@ -4,8 +4,6 @@
 # It is used to record a predefined VM-image of the appliance.
 # Otherwise executed first during a cloud deployement in IFB-Biosphere
 
-source /etc/profile
-
 # Setting up the tutorial environment
 
 mamba env create -f https://raw.githubusercontent.com/genomewalker/ebame7/main/ebame7-aDNA-tutorial/environment.yaml
@@ -13,9 +11,10 @@ mamba env create -f https://raw.githubusercontent.com/genomewalker/ebame7/main/e
 conda activate ebame7-aDNA-tutorial
 
 APP_SRC="/home/ubuntu/opt/src"
-BIN=/home/ubuntu/opt/bin
+BIN="/home/ubuntu/opt/bin"
 mkdir -p "${APP_SRC}"
 mkdir -p "${BIN}"
+
 cd "${APP_SRC}" || exit
 
 git clone https://github.com/metaDMG-dev/metaDMG-cpp.git
